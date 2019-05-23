@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>zxy</groupId>
+    <artifactId>vrf</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>zxy</groupId>
+            <artifactId>stdlib</artifactId>
+            <version>3.5.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/stdlib.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>zxy</groupId>
+            <artifactId>jpbc-api</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/jpbc-api-2.0.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>zxy</groupId>
+            <artifactId>jpbc-plaf</artifactId>
+            <version>2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/jpbc-plaf-2.0.0.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+</project>
